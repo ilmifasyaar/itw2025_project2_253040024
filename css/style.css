@@ -7,6 +7,11 @@ html {
   padding: 0;
 }
 
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
 /* Navbar */
 nav {
   display: flex;
@@ -83,12 +88,17 @@ nav a:hover::after {
 }
 
 /* Hero */
-.hero {
+.hero {  
+  height: 800px;
   margin-top: 100px;
-  margin-left: 138px;
-  margin-right: 138px;
-  margin-bottom: 100px;
-  width: 1079px;
+  display: flex;
+  justify-content: center;
+ 
+}
+.image {
+  margin: 100px, auto;
+  width: 100%;
+  max-width: 1079px;
   height: 800px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -146,11 +156,25 @@ nav a:hover::after {
 
 /* container-tiga */
 .container-tiga {
-  background-color: #767474;
-  border-radius: 15px;
   width: 1000px;
   margin: 100px auto;
   display: flex;
+}
+
+.bckgrnd-1 {
+  margin-right: 10px;
+  background-color: #767474;
+  border-radius: 15px;
+}
+.bckgrnd-2 {
+  margin-right: 10px;
+  background-color: #767474;
+  border-radius: 15px;
+}
+.bckgrnd-3 {
+  margin-right: 10px;
+  background-color: #767474;
+  border-radius: 15px;
 }
 
 .card {
@@ -165,26 +189,26 @@ nav a:hover::after {
   background-image: url(../img/KAPASTWO_-_FATAMORGANA_At_winfestcabaret_2025.Our_Best-Best_StoryBest_choreography_Winner_2nd_P.jpg);
   background-size: 400px;
   background-position: -40px, 0;
-  background-color: #767474;
+  
 }
 
 .card .header-2 {
   height: 500px;
   background-image: url(../img/KAPASTWO_-_FATAMORGANA_At_winfestcabaret_2025.Our_Best-Best_StoryBest_choreography_Winner_2nd_P_1.jpg);
   background-size: 400px;
-  background-color: #767474;
 }
 
 .card .header-3 {
   height: 500px;
   background-image: url(../img/KAPASTWO_-_FATAMORGANA_At_winfestcabaret_2025.Our_Best-Best_StoryBest_choreography_Winner_2nd_P_2.jpg);
   background-size: 400px;
-  background-color: #767474;
+  
 }
-
-.card .content {
-  text-align: center;
-  margin: 20px auto;
+ .content {
+  padding: 20px;
+  width: 265px;
+  text-align: justify;
+  margin: 10px auto;
 }
 
 /* Container-empat */
@@ -194,6 +218,7 @@ nav a:hover::after {
   justify-content: center;
   align-items: center;
   height:  800px;
+  width: 100%;
 }
 
 .carousel {
@@ -299,25 +324,25 @@ input[type="radio"] {
   transform: translateX(-500px);
 }
 #slide3:checked ~ .slides {
-  transform: translateX(-1000px);
+  transform: translateX(-1100px);
 }
 #slide4:checked ~ .slides {
-  transform: translateX(-1500px);
+  transform: translateX(-1700px);
 }
 #slide5:checked ~ .slides { 
-  transform: translateX(-2000px); 
+  transform: translateX(-2300px); 
 }
 #slide6:checked ~ .slides { 
-  transform: translateX(-2500px); 
+  transform: translateX(-2900px); 
 }
 #slide7:checked ~ .slides { 
-  transform: translateX(-3200px); 
+  transform: translateX(-3500px); 
 }
 #slide8:checked ~ .slides { 
-  transform: translateX(-4000px);
+  transform: translateX(-4100px);
 }
 #slide9:checked ~ .slides { 
-  transform: translateX(-4500px); 
+  transform: translateX(-4700px); 
 }
 #slide10:checked ~ .slides { 
   transform: translateX(-5300px); 
@@ -325,10 +350,11 @@ input[type="radio"] {
 
 .round {
   position: absolute;
-  left: 560px;
   display: flex;
   justify-content: center;
+  align-items: center;
   margin-top: 30px;
+  margin-left: 180px;
 }
 
 .round label {
@@ -396,6 +422,48 @@ input[type="radio"] {
 
 .contact-form button:hover {
   background: #007bff;
+}
+
+/* footer */
+.footer {
+  height: 120px;
+  background-color: #767474;
+  display: flex;
+  justify-content: space-around;
+}
+
+.ig {
+  background-image: url(../img/instagram.png);
+  background-size: 50px;
+  width: 50px;
+  height: 50px;
+  margin-top: 40px;
+}
+
+.ig a {
+  display: flex;
+  justify-content: right;
+  margin-left: 150px;
+  margin-top: 15px;
+  text-decoration: none;
+  color: #e21411;
+}
+
+.youtube {
+  background-image: url(../img/youtube.png);
+  background-size: 50px;
+  width: 50px;
+  height: 50px;
+  margin-top: 40px;
+}
+
+.youtube a {
+  display: flex;
+  justify-content: right;
+  margin-left: 130px;
+  margin-top: 15px;
+  text-decoration: none;
+  color: #e21411;
 }
 
 /* menu-toggle */
@@ -481,6 +549,10 @@ input[type="radio"] {
   right: 210px;
   }
   .hero {
+  width: 100%;
+  height: 800px;
+  }
+  .image {
   background-size: 1100px;
   width: 600px;
   height: 800px;
@@ -490,23 +562,23 @@ input[type="radio"] {
   .container-satu {
   padding: 80px;
   }
-    .bckgrnd-1 {
+  .bckgrnd-1 {
   width: 500px;
-  height: 870px;
+  height: 910px;
   background-color: #767474;
   margin-bottom: 25px;
   border-radius: 15px;
   }
   .bckgrnd-2 {
   width: 500px;
-  height: 870px;
+  height: 910px;
   background-color: #767474;
   margin-bottom: 25px;
   border-radius: 15px;
   }
   .bckgrnd-3 {
   width: 500px;
-  height: 870px;
+  height: 910px;
   background-color: #767474;
   margin-bottom: 25px;
   border-radius: 15px;
@@ -521,6 +593,7 @@ input[type="radio"] {
   background-image: url(../img/KAPASTWO_-_FATAMORGANA_At_winfestcabaret_2025_1.png);
   background-size: 600px;
   background-position: -70px, 0;
+
   }
   .card .header-2 {
   height: 750px;
@@ -534,30 +607,37 @@ input[type="radio"] {
   background-size: 600px;
   background-position: -40px, -10px;
   }
+  .content {
+  width: 400px;
+  text-align: justify;
+  }
 
 }
 
 /* ukuran mobile */
 @media screen and (max-width: 576px) {
+  body {
+    overflow-x: hidden;
+  }
   nav {
-    min-width: 344px;
+    max-width: 290px;
   }
   nav .logo {
-    margin-top: 30px;
-    margin-left: -170px;
-    background-size: 80px;
+    margin-top: 50px;
+    margin-left: -140px;
+    background-size: 60px;
   }
   nav .nama {
-    margin-top: -130px;
+    margin-top: -140px;
     margin-left: -250px;
-    background-size: 250px;
+    background-size: 240px;
   }
   nav ul {
     position: absolute;
     right: 0;
     top: 80px;
     height: 100vh;
-    width: 35%;
+    width: 30%;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
@@ -574,15 +654,43 @@ input[type="radio"] {
   .menu-toggle {
     display: flex;
     top: -60px;
-    right: -5px;
+    right: 5px;
     z-index: 2;
   }
+  .container-satu {
+  margin-top: 50px;
+  padding: 60px;
+  }
   .hero {
-  background-size: 600px;
-  width: 400px;
   height: 400px;
-  margin-left: 40px;
-  margin-right: 50px;
+  display: flex;
+  justify-content: center;
+  }
+  .image {
+  background-image: url(../img/KAPASTWO_-_FATAMORGANA_At_winfestcabaret_2025.Our_Best-Best_StoryBest_choreography_Winner_2nd_P_4_mini.jpg);
+  background-size: cover;
+  width: 100%;
+  max-width: 411px;
+  height: 300px;
+  margin: 0, auto;
+  }
+  .bckgrnd-1 {
+  width: 300px;
+  height: 600px;
+  margin-bottom: 25px;
+  border-radius: 15px;
+  }
+  .bckgrnd-2 {
+  width: 300px;
+  height: 600px;
+  margin-bottom: 25px;
+  border-radius: 15px;
+  }
+  .bckgrnd-3 {
+  width: 300px;
+  height: 600px;
+  margin-bottom: 25px;
+  border-radius: 15px;
   }
   .container-tiga {
   width: 300px;
@@ -590,33 +698,13 @@ input[type="radio"] {
   flex-direction: column;
   border-radius: 10px;
   }
-  .bckgrnd-1 {
-  width: 300px;
-  height: 520px;
-  background-color: #767474;
-  margin-bottom: 25px;
-  border-radius: 15px;
-  }
-  .bckgrnd-2 {
-  width: 300px;
-  height: 520px;
-  background-color: #767474;
-  margin-bottom: 25px;
-  border-radius: 15px;
-  }
-  .bckgrnd-3 {
-  width: 300px;
-  height: 520px;
-  background-color: #767474;
-  margin-bottom: 25px;
-  border-radius: 15px;
-  }
   .card .header-1 {
   height: 375px;
   background-image: url(../img/KAPASTWO_-_FATAMORGANA_At_winfestcabaret_2025_mini_1.png);
   background-size: cover;
   background-position: 1px, 0;
   background-repeat: no-repeat;
+  margin-bottom: 10px;
   }
   .card .header-2 {
   height: 375px;
@@ -632,9 +720,91 @@ input[type="radio"] {
   background-position: 1px, 0;
   background-repeat: no-repeat;
   }
-  .container-satu {
-  margin-top: 50px;
-  padding: 60px;
+  .content {
+  width: 185px;
+  margin: 5px auto;
+  }
+  .container-empat {
+    width: 100%;
+  }
+  .carousel {
+    margin-top: 50px;
+    width: 400px;
+    height: 400px;
+  }
+  .slide-1 {
+  width: 400px;
+  height: 400px;
+  }
+  .slide-2 {
+  width: 400px;
+  height: 400px;
+  }
+  .slide-3 {
+  width: 400px;
+  height: 400px;
+  }
+  .slide-4 {
+  width: 400px;
+  height: 400px;
+  }
+  .slide-5 {
+  width: 400px;
+  height: 400px;
+  }
+  .slide-6 {
+  width: 400px;
+  height: 400px;
+  }
+  .slide-7 {
+  width: 400px;
+  height: 400px;
+  }
+  .slide-8 {
+  width: 400px;
+  height: 400px;
+  }
+  .slide-9 {
+  width: 400px;
+  height: 400px;
+  }
+  .slide-10 {
+  width: 400px;
+  height: 400px;
+  }
+  #slide1:checked ~ .slides {
+    transform: translateX(0);
+  }
+  #slide2:checked ~ .slides {
+    transform: translateX(-300px);
+  }
+  #slide3:checked ~ .slides {
+    transform: translateX(-700px);
+  }
+  #slide4:checked ~ .slides {
+    transform: translateX(-1100px);
+  }
+  #slide5:checked ~ .slides { 
+    transform: translateX(-1500px); 
+  }
+  #slide6:checked ~ .slides { 
+    transform: translateX(-1900px); 
+  }
+  #slide7:checked ~ .slides { 
+    transform: translateX(-2300px); 
+  }
+  #slide8:checked ~ .slides { 
+    transform: translateX(-2700px);
+  }
+  #slide9:checked ~ .slides { 
+    transform: translateX(-3100px); 
+  }
+  #slide10:checked ~ .slides { 
+    transform: translateX(-3500px); 
+  }
+  .round {
+  width: 100%;
+  justify-self: end;
   }
 }
 
