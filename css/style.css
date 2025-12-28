@@ -1,103 +1,100 @@
-  html {
-    scroll-behavior: smooth;
-  }
+html {
+  scroll-behavior: smooth;
+}
 
-  * {
-    margin: 0;
-    padding: 0;
-  }
+* {
+  margin: 0;
+  padding: 0;
+}
 
-  body {
-    width: 100%;
-    overflow-x: hidden;
-  }
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
 
-  /* Navbar */
-  nav {
-    position: fixed;
-    display: flex;
-    width: 100%;
-    background-color: #767474;
-    flex-direction: column;
-    justify-content: center;
-    padding-left: 40%;
-    height: 120px;
-    color: #e21411;
-    box-shadow: 0 3px 25px 5px #000000;
-    z-index: 999;
-  }
+/* Navbar */
+nav {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  background-color: #767474;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 40%;
+  height: 120px;
+  color: #e21411;
+  box-shadow: 0 3px 25px 5px #000000;
+  z-index: 999;
+}
 
-  nav .logo {
-    height: 120px;
-    width: 120px;
-    background-image: url(../img/logo2.png);
-    background-repeat: no-repeat;
-    background-size: 120px;
-    margin-top: 10px;
-    margin-left: -450px;
-  }
+nav .logo {
+  height: 120px;
+  width: 120px;
+  background-image: url(../img/logo2.png);
+  background-repeat: no-repeat;
+  background-size: 120px;
+  margin-top: 10px;
+  margin-left: -450px;
+}
 
-  nav .nama {
-    display: flex;
-    width: 600px;
-    height: 100px;
-    background-image: url(../img/Name5.png);
-    background-repeat: no-repeat;
-    background-size: 350px;
-    margin-top: -100px;
-    margin-left: -300px;
-    
-  }
+nav .nama {
+  display: flex;
+  width: 600px;
+  height: 100px;
+  background-image: url(../img/Name5.png);
+  background-repeat: no-repeat;
+  background-size: 350px;
+  margin-top: -100px;
+  margin-left: -300px;
+}
 
-  nav ul {
-    display: flex;
-    position: absolute;
-    right: 650px;
-    top: 50px;
-    list-style: none;
-    width: 25%;
-    margin-left: -50px;
-    justify-content: space-between;
-  }
+nav ul {
+  display: flex;
+  position: absolute;
+  right: 650px;
+  top: 50px;
+  list-style: none;
+  width: 25%;
+  margin-left: -50px;
+  justify-content: space-between;
+}
 
-  nav ul li a {
-    font-weight: 700;
-    z-index: 10;
-    color: #000000;
-    text-decoration: none;
-    position: relative;
-    transition: 0.5s ease;
-  }
+nav ul li a {
+  font-weight: 700;
+  z-index: 10;
+  color: #000000;
+  text-decoration: none;
+  position: relative;
+  transition: 0.5s ease;
+}
 
-  nav ul li a:hover {
-    color: rgb(255, 255, 255);
-  }
+nav ul li a:hover {
+  color: rgb(255, 255, 255);
+}
 
-  nav a::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 0;
-    height: 3px;
-    background-color: whitesmoke;
-    transition: width 0.5s ease;
-  }
+nav a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background-color: whitesmoke;
+  transition: width 0.5s ease;
+}
 
-  nav a:hover::after {
-    width: 100%;
-  }
+nav a:hover::after {
+  width: 100%;
+}
 
-
-  /* Hero */
-  .hero {  
-    height: 800px;
-    margin-bottom: 100px;
-    display: flex;
-    justify-content: center;
-  
-  }
-  .image {
+/* Hero */
+.hero {
+  height: 800px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+}
+.image {
   margin: 250px auto;
   margin-top: 200px;
   width: 100%;
@@ -133,7 +130,7 @@
 .container-dua {
   max-width: 100%;
   margin-top: -255px;
-  margin-bottom: -190px ;
+  margin-bottom: -190px;
   background-image: url(../img/ChatGPT\ Image\ Dec\ 28\,\ 2025\,\ 02_35_56\ AM.png);
   padding: 30px;
   border-radius: 8px;
@@ -207,7 +204,6 @@
   background-image: url(../img/KAPASTWO_-_FATAMORGANA_At_winfestcabaret_2025.Our_Best-Best_StoryBest_choreography_Winner_2nd_P.jpg);
   background-size: 400px;
   background-position: -40px, 0;
-  
 }
 
 .card .header-2 {
@@ -220,9 +216,8 @@
   height: 500px;
   background-image: url(../img/KAPASTWO_-_FATAMORGANA_At_winfestcabaret_2025.Our_Best-Best_StoryBest_choreography_Winner_2nd_P_2.jpg);
   background-size: 400px;
-  
 }
- .content {
+.content {
   padding: 20px;
   width: 265px;
   text-align: justify;
@@ -257,82 +252,71 @@
 .slide-1 {
   width: 600px;
   height: 600px;
-  background-size:cover;
+  background-size: cover;
   background-image: url(../img/Festival_Kabaret_Paranor2019Juara_3Best_AktrisNominasi_Best_AktorNominasi_Cerita_Terba_3.jpg);
-  
 }
 .slide-2 {
   width: 600px;
   height: 600px;
-  background-size:cover;
+  background-size: cover;
   background-image: url(../img/Festival_Kabaret_Paranor2019Juara_3Best_AktrisNominasi_Best_AktorNominasi_Cerita_Terba_1.jpg);
-  
 }
 .slide-3 {
   width: 600px;
   height: 600px;
-  background-size:cover;
+  background-size: cover;
   background-image: url(../img/Festival_Kabaret_Paranor2019Juara_3Best_AktrisNominasi_Best_AktorNominasi_Cerita_Terba_2.jpg);
-  
 }
 .slide-4 {
   width: 600px;
   height: 600px;
   background-size: cover;
   background-image: url(../img/KAPASTWO_-_PANGAREPIPUNat_abhipraya.arunika_2024_6.jpg);
-  
 }
 .slide-5 {
   width: 600px;
   height: 600px;
   background-size: cover;
   background-image: url(../img/KAPASTWO_-_PANGAREPIPUNat_abhipraya.arunika_2024_4.jpg);
-  
 }
 .slide-6 {
   width: 600px;
   height: 600px;
   background-size: cover;
   background-image: url(../img/KAPASTWO_-_PANGAREPIPUNat_abhipraya.arunika_2024_1.jpg);
-  
 }
 .slide-7 {
   width: 600px;
   height: 600px;
   background-size: cover;
   background-image: url(../img/KAPASTWO_-_PANGAREPIPUNat_abhipraya.arunika_2024_3.jpg);
-  
 }
 .slide-8 {
   width: 600px;
   height: 600px;
   background-size: cover;
   background-image: url(../img/KAPASTWO_-_PANGAREPIPUNat_abhipraya.arunika_2024_5.jpg);
-  
 }
 .slide-9 {
   width: 600px;
   height: 600px;
   background-size: cover;
   background-image: url(../img/KAPASTWO_-_PANGAREPIPUNat_abhipraya.arunika_2024.jpg);
-  
 }
 .slide-10 {
   width: 600px;
   height: 600px;
   background-size: cover;
   background-image: url(../img/KAPASTWO_-_MEVINBYRAt_GYFEST_2023._.Our_best-.Best_Costume_Best_Choreography_Best_Actress_Best_S.jpg);
-  
 }
 .slide-11 {
   width: 600px;
   height: 600px;
   background-size: cover;
   background-image: url(../img/KAPASTWO_-_MEVINBYRAt_GYFEST_2023._.Our_best-.Best_Costume_Best_Choreography_Best_Actress_Best_S_2.jpg);
-  
 }
 
-input[type="radio"] {
+input[type='radio'] {
   display: none;
 }
 
@@ -348,23 +332,23 @@ input[type="radio"] {
 #slide4:checked ~ .slides {
   transform: translateX(-1700px);
 }
-#slide5:checked ~ .slides { 
-  transform: translateX(-2300px); 
+#slide5:checked ~ .slides {
+  transform: translateX(-2300px);
 }
-#slide6:checked ~ .slides { 
-  transform: translateX(-2900px); 
+#slide6:checked ~ .slides {
+  transform: translateX(-2900px);
 }
-#slide7:checked ~ .slides { 
-  transform: translateX(-3500px); 
+#slide7:checked ~ .slides {
+  transform: translateX(-3500px);
 }
-#slide8:checked ~ .slides { 
+#slide8:checked ~ .slides {
   transform: translateX(-4100px);
 }
-#slide9:checked ~ .slides { 
-  transform: translateX(-4700px); 
+#slide9:checked ~ .slides {
+  transform: translateX(-4700px);
 }
-#slide10:checked ~ .slides { 
-  transform: translateX(-5300px); 
+#slide10:checked ~ .slides {
+  transform: translateX(-5300px);
 }
 
 .round {
@@ -392,7 +376,6 @@ input[type="radio"] {
   width: 50px;
   height: 50px;
   background-color: #000000;
-  
 }
 
 #prev {
@@ -402,9 +385,7 @@ input[type="radio"] {
   width: 50px;
   height: 50px;
   background-color: #000000;
-  
 }
-
 
 /* About */
 .contact-form {
@@ -488,7 +469,7 @@ input[type="radio"] {
   width: 200px;
   height: 50px;
   display: flex;
-  justify-content:center;
+  justify-content: center;
   text-decoration: none;
   font-size: larger;
   margin-top: 40px;
@@ -498,7 +479,6 @@ input[type="radio"] {
 .youtube a:hover {
   color: #000;
 }
-
 
 /* menu-toggle */
 
@@ -576,86 +556,85 @@ input[type="radio"] {
     margin-left: -200px;
   }
   nav ul {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  width: 40%;
-  top: 80px;
-  right: 210px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 40%;
+    top: 80px;
+    right: 210px;
   }
   .hero {
-  width: 100%;
-  height: 800px;
+    width: 100%;
+    height: 800px;
   }
   .image {
-  background-size: 1100px;
-  width: 600px;
-  height: 800px;
-  margin-left: 73px;
-  margin-right: 73px;
+    background-size: 1100px;
+    width: 600px;
+    height: 800px;
+    margin-left: 73px;
+    margin-right: 73px;
   }
   .container-satu {
-  padding: 80px;
+    padding: 80px;
   }
   .container-satu p {
-  font-size: large;
-  font-weight: 500;
-  text-align: justify;
+    font-size: large;
+    font-weight: 500;
+    text-align: justify;
   }
   .bckgrnd-1 {
-  width: 500px;
-  height: 910px;
-  background-color: #767474;
-  margin-bottom: 25px;
-  border-radius: 15px;
+    width: 500px;
+    height: 910px;
+    background-color: #767474;
+    margin-bottom: 25px;
+    border-radius: 15px;
   }
   .bckgrnd-2 {
-  width: 500px;
-  height: 910px;
-  background-color: #767474;
-  margin-bottom: 25px;
-  border-radius: 15px;
+    width: 500px;
+    height: 910px;
+    background-color: #767474;
+    margin-bottom: 25px;
+    border-radius: 15px;
   }
   .bckgrnd-3 {
-  width: 500px;
-  height: 910px;
-  background-color: #767474;
-  margin-bottom: 25px;
-  border-radius: 15px;
+    width: 500px;
+    height: 910px;
+    background-color: #767474;
+    margin-bottom: 25px;
+    border-radius: 15px;
   }
   .container-tiga {
-  width: 500px;
-  margin: 100px auto;
-  flex-direction: column;
+    width: 500px;
+    margin: 100px auto;
+    flex-direction: column;
   }
   .card .header-1 {
-  height: 750px;
-  background-image: url(../img/KAPASTWO_-_FATAMORGANA_At_winfestcabaret_2025_1.png);
-  background-size: 600px;
-  background-position: -70px, 0;
-
+    height: 750px;
+    background-image: url(../img/KAPASTWO_-_FATAMORGANA_At_winfestcabaret_2025_1.png);
+    background-size: 600px;
+    background-position: -70px, 0;
   }
   .card .header-2 {
-  height: 750px;
-  background-image: url(../img/KAPASTWO_-_FATAMORGANA_At_winfestcabaret_2025_2.png);
-  background-size: 600px;
-  background-position: -50px,0;
+    height: 750px;
+    background-image: url(../img/KAPASTWO_-_FATAMORGANA_At_winfestcabaret_2025_2.png);
+    background-size: 600px;
+    background-position: -50px, 0;
   }
   .card .header-3 {
-  height: 750px;
-  background-image: url(../img/KAPASTWO_-_FATAMORGANA_At_winfestcabaret_2025_3.png);
-  background-size: 600px;
-  background-position: -40px, -10px;
+    height: 750px;
+    background-image: url(../img/KAPASTWO_-_FATAMORGANA_At_winfestcabaret_2025_3.png);
+    background-size: 600px;
+    background-position: -40px, -10px;
   }
   .content {
-  width: 400px;
-  text-align: justify;
+    width: 400px;
+    text-align: justify;
   }
-
 }
 
 /* ukuran mobile */
 @media screen and (max-width: 576px) {
-  body, html {
+  body,
+  html {
     overflow-x: hidden;
     max-width: 100%;
   }
@@ -698,18 +677,18 @@ input[type="radio"] {
     z-index: 2;
   }
   .container-satu {
-  margin-top: -10px;
-  padding: 60px;
+    margin-top: -10px;
+    padding: 60px;
   }
   .container-satu h1 {
-  text-align: center;
-  margin-top: 50px;
-  margin-bottom: 25px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 25px;
   }
   .container-satu p {
-  font-size: large;
-  font-weight: 500;
-  text-align: justify;
+    font-size: large;
+    font-weight: 500;
+    text-align: justify;
   }
   .container-dua {
     margin-top: -90px;
@@ -720,86 +699,84 @@ input[type="radio"] {
     width: 300px;
   }
   .hero {
-  height: 400px;
-  display: flex;
-  justify-content: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
   }
   .image {
-  background-image: url(../img/KAPASTWO_-_FATAMORGANA_At_winfestcabaret_2025.Our_Best-Best_StoryBest_choreography_Winner_2nd_P_4_mini.jpg);
-  background-size: cover;
-  width: 100%;
-  max-width: 411px;
-  height: 300px;
-  margin: 20px, auto;
+    background-image: url(../img/KAPASTWO_-_FATAMORGANA_At_winfestcabaret_2025.Our_Best-Best_StoryBest_choreography_Winner_2nd_P_4_mini.jpg);
+    background-size: cover;
+    width: 100%;
+    max-width: 411px;
+    height: 300px;
+    margin: 20px, auto;
   }
   .bckgrnd-1 {
-  width: 300px;
-  height: 600px;
-  margin: 25px auto;
-  border-radius: 15px;
+    width: 300px;
+    height: 620px;
+    margin: 25px auto;
+    border-radius: 15px;
   }
   .bckgrnd-2 {
-  width: 300px;
-  height: 600px;
-   margin: 25px auto;
-  border-radius: 15px;
+    width: 300px;
+    height: 620px;
+    margin: 25px auto;
+    border-radius: 15px;
   }
   .bckgrnd-3 {
-  width: 300px;
-  height: 600px;
-   margin: 25px auto;
-  border-radius: 15px;
+    width: 300px;
+    height: 620px;
+    margin: 25px auto;
+    border-radius: 15px;
   }
   .container-tiga {
-  background-color: #e7dddd;
-  width: 100%;
-  height: 130rem;
-  margin: -5px auto;
-  display: flex;
-  justify-content: center;
+    background-color: #e7dddd;
+    width: 100%;
+    height: 130rem;
+    margin: -5px auto;
+    display: flex;
+    justify-content: center;
   }
   .card .header-1 {
-  height: 375px;
-  background-image: url(../img/KAPASTWO_-_FATAMORGANA_At_winfestcabaret_2025_mini_1.png);
-  background-size: cover;
-  background-position: 1px, 0;
-  background-repeat: no-repeat;
-  margin-bottom: 10px;
+    height: 375px;
+    background-image: url(../img/KAPASTWO_-_FATAMORGANA_At_winfestcabaret_2025_mini_1.png);
+    background-size: cover;
+    background-position: 1px, 0;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
   }
   .card .header-2 {
-  height: 375px;
-  background-image: url(../img/KAPASTWO_-_FATAMORGANA_At_winfestcabaret_2025_mini_2.png);
-  background-size: cover;
-  background-position: 1px, 0 ;
-  background-repeat: no-repeat;
+    height: 375px;
+    background-image: url(../img/KAPASTWO_-_FATAMORGANA_At_winfestcabaret_2025_mini_2.png);
+    background-size: cover;
+    background-position: 1px, 0;
+    background-repeat: no-repeat;
   }
   .card .header-3 {
-  height: 375px;
-  background-image: url(../img/KAPASTWO_-_FATAMORGANA_At_winfestcabaret_2025_mini_3.png);
-  background-size: cover;
-  background-position: 1px, 0;
-  background-repeat: no-repeat;
+    height: 375px;
+    background-image: url(../img/KAPASTWO_-_FATAMORGANA_At_winfestcabaret_2025_mini_3.png);
+    background-size: cover;
+    background-position: 1px, 0;
+    background-repeat: no-repeat;
   }
   .content {
-  width: 185px;
-  margin: 5px auto;
+    width: 185px;
+    margin: 5px auto;
   }
   .container-empat {
-  margin: -100px auto;
-  margin-bottom: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 800px;
-  width: 100%;
+    margin: -100px auto;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    width: 100%;
   }
-  
   .carousel {
-  margin-top: 50px;
-  width: 400px;
-  height: 400px;
+    margin-top: 50px;
+    width: 400px;
+    height: 400px;
   }
-
   .slide-1,
   .slide-2,
   .slide-3,
@@ -811,95 +788,97 @@ input[type="radio"] {
   .slide-9,
   .slide-10,
   .slide-11 {
-  width: 400px;
-  height: 400px;
+    width: 400px;
+    height: 400px;
   }
 
   .contact-form {
-  width: 300px;
-  margin: 100px auto;
-  background: #fff;
-  padding: 20px;
-  border-radius: 6px;
-}
+    width: 300px;
+    margin: 100px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 6px;
+  }
 
-.contact-form h1 {
-  text-align: center;
-  margin-bottom: 20px;
-}
+  .contact-form h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
 
-.contact-form input,
-.contact-form textarea {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
 
-.contact-form button {
-  width: 25%;
-  padding: 10px;
-  background: #007bff;
-  color: #fff;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
+  .contact-form button {
+    width: 25%;
+    padding: 10px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
 
-.contact-form button:hover {
-  background: #e21411;
-}
+  .contact-form button:hover {
+    background: #e21411;
+  }
 
-.footer {
-  height: max-content;
-  background-color: #767474;
-  display: flex;
-  flex-direction: column;
-}
+  .footer {
+    height: max-content;
+    background-color: #767474;
+    display: flex;
+    flex-direction: row;
+  }
 
-.ig a {
-  background-size: 50px;
-  background-repeat: no-repeat;
-  width: 200px;
-  height: 50px;
-  display: flex;
-  justify-self: start;
-  text-decoration: none;
-  font-size: larger;
-  margin-top: 40px;
-  color: #bd0502;
-}
+  .ig a {
+    background-size: 40px;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    font-size: large;
+    margin-top: 30px;
+    color: #bd0502;
+  }
 
-.ig a:hover {
-  color: #000;
-}
+  .ig a:hover {
+    color: #000;
+  }
 
-.create a {
-  display: flex;
-  justify-content: center;
-  text-decoration: none;
-  margin-top: 20px;
-  color: #bd0502;
-}
+  .create a {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    margin-top: 30px;
+    margin-left: -40px;
+    color: #bd0502;
+  }
 
-.youtube a {
-  background-size: 50px;
-  background-repeat: no-repeat;
-  width: 200px;
-  height: 50px;
-  display: flex;
-  justify-self: end;
-  text-decoration: none;
-  font-size: larger;
-  margin-top: 40px;
-  color: #bd0502;
-}
+  .youtube a {
+    background-size: 40px;
+    background-repeat: no-repeat;
+    width: 180px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    font-size: large;
+    margin-top: 30px;
+    margin-left: 20px;
+    color: #bd0502;
+  }
 
-.youtube a:hover {
-  color: #000;
-}
- 
+  .youtube a:hover {
+    color: #000;
+  }
+
   #slide1:checked ~ .slides {
     transform: translateX(0);
   }
@@ -912,27 +891,26 @@ input[type="radio"] {
   #slide4:checked ~ .slides {
     transform: translateX(-1100px);
   }
-  #slide5:checked ~ .slides { 
-    transform: translateX(-1500px); 
+  #slide5:checked ~ .slides {
+    transform: translateX(-1500px);
   }
-  #slide6:checked ~ .slides { 
-    transform: translateX(-1900px); 
+  #slide6:checked ~ .slides {
+    transform: translateX(-1900px);
   }
-  #slide7:checked ~ .slides { 
-    transform: translateX(-2300px); 
+  #slide7:checked ~ .slides {
+    transform: translateX(-2300px);
   }
-  #slide8:checked ~ .slides { 
+  #slide8:checked ~ .slides {
     transform: translateX(-2700px);
   }
-  #slide9:checked ~ .slides { 
-    transform: translateX(-3100px); 
+  #slide9:checked ~ .slides {
+    transform: translateX(-3100px);
   }
-  #slide10:checked ~ .slides { 
-    transform: translateX(-3500px); 
+  #slide10:checked ~ .slides {
+    transform: translateX(-3500px);
   }
   .round {
-  width: 100%;
-  justify-self: end;
+    width: 100%;
+    justify-self: flex-end;
   }
-
 }
