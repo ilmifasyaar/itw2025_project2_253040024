@@ -912,6 +912,8 @@ input[type='radio'] {
   }
   .round {
     width: 100%;
-    justify-self: flex-end;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
   }
 }
